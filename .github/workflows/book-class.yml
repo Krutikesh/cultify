@@ -2,7 +2,7 @@ name: Auto Book Cult Class
 
 on:
   schedule:
-    - cron: '32 16 * * *' # 4:32 PM UTC UTC i.e 10:02 PM IST
+    - cron: '31 16 * * *' # 4:32 PM UTC UTC i.e 10:02 PM IST
   workflow_dispatch:
 
 jobs:
